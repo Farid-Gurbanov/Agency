@@ -11,6 +11,9 @@ body .imgbox {
 body .imgbox img {
   width: 100%;
 }
+body .btn {
+  color: #fff;
+}
 
 header {
   background-color: #212529;
@@ -55,10 +58,62 @@ header .nav-menu .hamburger-menu {
     color: #9b9d9b;
     display: inline-block;
     font-weight: 600;
-    font-size: 13pxs;
+    font-size: 13px;
   }
 }
 
 #welcome {
+  padding: 150px 0;
   background-image: url("assets/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#welcome .box {
+  flex-direction: column;
+  padding-top: 120px;
+  color: #fff;
+}
+#welcome .box h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2.25rem;
+  margin-bottom: 32px;
+}
+#welcome .box h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 64px;
+}
+#welcome .box .btn {
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ffc800;
+}
+#welcome .box .btn:hover {
+  color: #000;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #welcome .box {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  #welcome .box {
+    padding-top: 0px;
+    text-align: center;
+  }
+  #welcome .box h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  #welcome .box h1 {
+    font-size: 52px;
+    line-height: 3.25rem;
+    margin-bottom: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
