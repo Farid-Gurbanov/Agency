@@ -55,6 +55,10 @@ header .nav-menu .hamburger-menu {
     color: #9b9d9b;
     display: inline-block;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 13pxs;
   }
+}
+
+#welcome {
+  background-image: url("assets/header-bg.jpg");
 }/*# sourceMappingURL=style.css.map */
