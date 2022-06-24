@@ -38,6 +38,9 @@ header .nav-menu .hamburger-menu {
   display: none;
 }
 @media screen and (max-width: 992px) {
+  header .nav-menu {
+    padding: 15px 0;
+  }
   header .nav-menu nav {
     display: none;
   }
@@ -46,10 +49,12 @@ header .nav-menu .hamburger-menu {
     align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding-right: 15px;
+    padding-right: 10px;
   }
   header .nav-menu .hamburger-menu .btn, header .nav-menu .hamburger-menu .icon {
     color: #9b9d9b;
     display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */
