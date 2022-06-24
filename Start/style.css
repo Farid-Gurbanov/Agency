@@ -95,7 +95,7 @@ header .nav-menu .hamburger-menu {
   background-color: #ffc800;
 }
 #welcome .box .btn:hover {
-  color: #000;
+  background-color: #cca000;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   #welcome .box {
