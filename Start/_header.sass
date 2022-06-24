@@ -1,0 +1,33 @@
+header
+    background-color: #212529
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    z-index: 1030
+    .nav-menu
+        padding: 25px 0
+        a
+            margin-left: 34px
+            font-size: 16px
+            font-weight: 400
+            &:hover
+                color: #ffc800 
+        .imgbox
+            width: 140px
+
+        .hamburger-menu
+            display: none
+    @media screen and ( max-width: 992px )
+        .nav-menu
+            nav
+                display: none
+            .hamburger-menu
+                display: flex
+                align-items: center
+                border-radius: 4px
+                border: 1px solid rgba(255, 255, 255, 0.1)
+                padding-right: 15px
+                .btn, .icon
+                    color: #9b9d9b
+                    display: inline-block

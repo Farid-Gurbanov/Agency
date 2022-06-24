@@ -1,22 +1,55 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
-
-a {
-  color: orange;
+body section {
+  padding: 100px 0;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+header {
+  background-color: #212529;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
-
-h2 {
-  color: orange;
+header .nav-menu {
+  padding: 25px 0;
 }
-
-p {
-  color: red;
-  text-decoration: underline;
+header .nav-menu a {
+  margin-left: 34px;
+  font-size: 16px;
+  font-weight: 400;
 }
-/*# sourceMappingURL=style.css.map */
+header .nav-menu a:hover {
+  color: #ffc800;
+}
+header .nav-menu .imgbox {
+  width: 140px;
+}
+header .nav-menu .hamburger-menu {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  header .nav-menu nav {
+    display: none;
+  }
+  header .nav-menu .hamburger-menu {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 15px;
+  }
+  header .nav-menu .hamburger-menu .btn, header .nav-menu .hamburger-menu .icon {
+    color: #9b9d9b;
+    display: inline-block;
+  }
+}/*# sourceMappingURL=style.css.map */
