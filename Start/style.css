@@ -139,13 +139,117 @@ header .nav-menu .hamburger-menu {
   font-weight: 400;
   font-style: italic;
   color: #6c757d;
-  margin-top: 16px;
+  margin-top: 12px;
   margin-bottom: 64px;
+}
+#services .textbox h3 {
+  font-size: 24px;
+  margin: 16px 0;
+  font-weight: 700;
 }
 #services .textbox p {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   color: #6c757d;
   line-height: 1.75;
-  margin-top: 16px;
+  margin: 16px 0;
+}
+
+#portfolio {
+  background-color: rgb(248, 249, 250);
+}
+#portfolio .box {
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+#portfolio .textbox {
+  text-align: center;
+  padding: 24px;
+}
+#portfolio .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#portfolio .textbox h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+#portfolio .textbox h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+#portfolio .textbox h4 {
+  font-size: 16px;
+  color: #6c757d;
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+}
+@media screen and (max-width: 576px) {
+  #portfolio .box {
+    margin: 0px 35px;
+  }
+}
+
+#about .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#about .textbox h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 12px;
+  margin-bottom: 64px;
+}
+#about .box {
+  margin-bottom: 80px;
+  display: flex;
+}
+#about .box .textbox {
+  width: 370px;
+}
+#about .box .textbox h3, #about .box .textbox h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#about .box .textbox h5 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #6c757d;
+  line-height: 1.75;
+  margin: 16px 0;
+}
+#about .box .imgbox {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+  margin: 0 60px;
+}
+#about .minibox {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  color: white;
+  border: 7px solid #e9ecef;
+  text-align: center;
+}
+#about .minibox p {
+  position: absolute;
+  left: 44px;
+  top: 42px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
