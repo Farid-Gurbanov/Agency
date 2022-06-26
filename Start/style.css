@@ -116,4 +116,36 @@ header .nav-menu .hamburger-menu {
     line-height: 3.25rem;
     margin-bottom: 32px;
   }
+}
+
+#services .box .icon {
+  background-color: #ffc800;
+  border-radius: 50%;
+  font-size: 64px;
+  color: #fff;
+  width: 128px;
+  height: 128px;
+}
+#services .textbox {
+  text-align: center;
+}
+#services .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#services .textbox h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+#services .textbox p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #6c757d;
+  line-height: 1.75;
+  margin-top: 16px;
 }/*# sourceMappingURL=style.css.map */
