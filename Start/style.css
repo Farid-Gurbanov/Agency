@@ -21,7 +21,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 100;
 }
 header .nav-menu {
   padding: 25px 0;
@@ -33,6 +33,7 @@ header .nav-menu a {
 }
 header .nav-menu a:hover {
   color: #ffc800;
+  cursor: pointer;
 }
 header .nav-menu .imgbox {
   width: 140px;
@@ -319,21 +320,21 @@ header .nav-menu .hamburger-menu {
   }
 }
 
-#amazing {
+#team {
   background-color: rgb(248, 249, 250);
 }
-#amazing .box {
+#team .box {
   margin-bottom: 48px;
 }
-#amazing .textbox {
+#team .textbox {
   text-align: center;
 }
-#amazing .textbox h1 {
+#team .textbox h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
 }
-#amazing .textbox h2 {
+#team .textbox h2 {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-style: italic;
@@ -341,51 +342,57 @@ header .nav-menu .hamburger-menu {
   margin-top: 10px;
   margin-bottom: 64px;
 }
-#amazing .textbox h3 {
+#team .textbox h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.8;
   margin-top: 12px;
 }
-#amazing .textbox h4 {
+#team .textbox h4 {
   font-size: 16px;
   color: #6c757d;
   font-weight: 400;
   font-family: "Roboto Slab", serif;
   margin-bottom: 20px;
 }
-#amazing p {
+#team p {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   color: #6c757d;
   line-height: 1.75;
 }
-#amazing .imgbox {
+#team .imgbox {
   width: 225px;
   height: 225px;
   border-radius: 50%;
   border: 8px solid #e9ecef;
   display: inline-block;
 }
-#amazing .icon i {
+#team .icon i {
   background-color: #000;
   color: #fff;
   border-radius: 50%;
   padding: 11px 12px;
   margin: 0 10px;
 }
+#team .icon i:hover {
+  cursor: pointer;
+}
 
-#brend {
+#brand {
   padding: 60px 0;
 }
-#brend .imgbox {
+#brand .imgbox {
   margin-bottom: 0px;
 }
-#brend .imgbox img {
+#brand .imgbox img {
   height: 44px;
 }
+#brand .imgbox img:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 767px) {
-  #brend .imgbox {
+  #brand .imgbox {
     margin-bottom: 30px;
   }
 }
@@ -434,6 +441,10 @@ header .nav-menu .hamburger-menu {
   font-weight: 700;
   background-color: #ffc800;
   opacity: 0.65;
+}
+#contact .btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 footer {
