@@ -415,14 +415,20 @@ header .nav-menu .hamburger-menu {
 #brand {
   padding: 60px 0;
 }
-#brand .imgbox {
-  margin-bottom: 0px;
-}
-#brand .imgbox img {
-  height: 44px;
-}
 #brand .imgbox img:hover {
   cursor: pointer;
+}
+#brand .microsoft {
+  max-width: 200px;
+}
+#brand .facebook {
+  max-width: 165px;
+}
+#brand .google {
+  max-width: 120px;
+}
+#brand .ibm {
+  max-width: 110px;
 }
 @media screen and (max-width: 767px) {
   #brand .imgbox {
